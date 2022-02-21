@@ -4,6 +4,7 @@ function Footer(){
     return(
         <div className="footer">
             <a href="https://github.com/mavisyupyup1" target="_blank"><i class="fab fa-github"></i></a> 
+            <span>  </span>
             <a href="http://linkedin.com/in/grace-ge-liu" target="_blank"><i class="fab fa-brands fa-linkedin"></i></a>
         </div>
 
