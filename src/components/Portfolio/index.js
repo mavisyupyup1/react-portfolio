@@ -82,7 +82,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[0].gitRepo}  target="_blank" className="btn" rel="noreferrer">
                             <i className="fab fa-github"></i></a>
-                            <a href={project[0].videoDemo}  className="btn" rel="noreferrer">
+                            <a href={project[0].videoDemo}  className="btn" target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-video"></i></a>
                     </div>
   </Card.Body>
@@ -105,7 +105,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[1].gitRepo}  target="_blank" className="btn" rel="noreferrer">
                             <i className="fab fa-github"></i></a>
-                            <a href={project[1].videoDemo}  className="btn" rel="noreferrer">
+                            <a href={project[1].videoDemo}  className="btn" target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-video"></i></a>
                     </div>
   </Card.Body>
@@ -128,7 +128,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[2].gitRepo}  target="_blank" className="btn" rel="noreferrer">
                             <i className="fab fa-github"></i></a>
-                            <a href={project[2].videoDemo}  className="btn" rel="noreferrer">
+                            <a href={project[2].videoDemo}  className="btn" target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-video"></i></a>
                     </div>
   </Card.Body>
@@ -151,7 +151,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[3].gitRepo}  target="_blank" className="btn" rel="noreferrer">
                             <i className="fab fa-github"></i></a>
-                            <a href={project[3].videoDemo}  className="btn" rel="noreferrer">
+                            <a href={project[3].videoDemo}  className="btn" target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-video"></i></a>
                     </div>
   </Card.Body>
@@ -174,7 +174,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[4].gitRepo}  target="_blank" className="btn" rel="noreferrer">
                             <i className="fab fa-github"></i></a>
-                            <a href={project[4].videoDemo}  className="btn" rel="noreferrer">
+                            <a href={project[4].videoDemo}  className="btn"target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-video"></i></a>
                     </div>
   </Card.Body>
@@ -197,7 +197,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[5].gitRepo}  target="_blank" className="btn" rel="noreferrer">
                             <i className="fab fa-github"></i></a>
-                            <a href={project[5].videoDemo}  className="btn" rel="noreferrer">
+                            <a href={project[5].videoDemo}  className="btn" target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-video"></i></a>
                     </div>
   </Card.Body>

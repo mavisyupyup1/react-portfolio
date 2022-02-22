@@ -1,7 +1,7 @@
 import React ,{useState}from "react";
 import './style.css'
 import coverImage from "../../assets/cover/image-1.PNG"
-function Home(){
+function About(){
     const [showMore, setShowMore] = useState(false);
     const text = "I am the Director of Research Data Operations in Psychiatry at Columbia University. I provide comprehensive data services to researchers and my knowledge as a developer brings more flexibilities and customizations to my data solutions. In my spare time, I enjoying baking bread and playing cello with my children. Our favorite pieces are Bach's Cello Suites. My favorite recipe is the Pullman Sandwich Bread."
     return(
@@ -22,4 +22,4 @@ function Home(){
         </div>
     )
 }
-export default Home
+export default About

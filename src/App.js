@@ -3,9 +3,9 @@ import Nav from './components/Nav'
 import Portfolio  from './components/Portfolio';
 import Contact from './components/Contact'
 import Footer from './components/Footer';
-import Skills from './components/Skills';
-import Home from './components/Home';
+import Resume from './components/Resume';
 import './App.css'
+import About from './components/About';
 function App() {
     const [currentPage, setCurrentPage] = useState('');
    
@@ -16,10 +16,10 @@ function App() {
       if (currentPage === 'Portfolio') {
         return <Portfolio />;
       }
-      if (currentPage === 'Skills') {
-        return <Skills/>;
+      if (currentPage === 'Resume') {
+        return <Resume/>;
       }
-      return <Home />;
+      return <About/>;
     };
   
     const handlePageChange = (page) => setCurrentPage(page);

@@ -1,14 +1,17 @@
 import React from 'react';
 import'./style.css'
-export const Skills = () => {
+import file from '../../assets/files/GraceLiu_Resume.pdf'
+export const Resume = () => {
     return (
         <div className="about">
-            <div className='intro'>
-            <h1 className="my-10">Nice to meet you!</h1>
-           I am Grace,a full-stack web developer. 
-           I provide comprehensive data services to researchers and my knowledge as a developer brings out of the box customizations to my data solutions. 
+              <div className='intro'>
+            <h2 className="my-10">Nice to meet you!</h2>
+            Check out my resume
+            <a href={file} download>
+            <i class="fa-solid fa-file-pdf"></i></a>
              </div>
-            <h1 className="mt-5">Skills</h1>
+             <i class="fa-solid fa-code"></i>
+            <h1 className="mt-5 text-center">Technical Skills</h1>
             <div className="content">
                 <div>
                     <strong>Languages</strong>
@@ -45,4 +48,4 @@ export const Skills = () => {
     )
 }
 
-export default Skills;
+export default Resume;

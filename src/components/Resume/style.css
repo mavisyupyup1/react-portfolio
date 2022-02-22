@@ -1,6 +1,7 @@
 .about {
     flex-grow: 1;
     color: black;
+    text-align: center;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h2 {
     font-size: 16px;
     grid-template-columns: 1fr 1fr;
     color: black;
+    text-align: center;
 }
 
 .content div {
