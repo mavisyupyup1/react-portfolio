@@ -1,0 +1,52 @@
+.about {
+    flex-grow: 1;
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 2%;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 2%;
+  
+}
+.intro{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 16px;
+    color: black;
+}
+.content {
+    display: grid;
+    font-size: 16px;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+}
+
+.content div {
+    margin-bottom: 25px;
+}
+
+.content strong {
+    line-height: 25px;
+    padding-bottom: 15px;
+    display: block;
+    color: black;
+}
+
+.content li {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 800px) {
+    .content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

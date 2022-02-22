@@ -1,0 +1,46 @@
+#portfolio {
+    flex-grow: 1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+#portfolio h3 {
+    font-size: 29px;
+    font-family: 'Volkhov', serif;
+    color: #56738C;
+    padding-left: 17px!important;
+    text-align: center;
+}
+
+
+#portfolio .card {
+    background-color: #F2EBEC;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);
+    margin-bottom: 5%;
+}
+
+small {
+    font-style: italic;
+}
+
+.card-title,
+.card-text {
+    padding-left: 1.25rem;
+    text-align: center;
+}
+
+.gitLinks {
+    bottom: 0;
+    text-align: center;
+    
+}
+.imageBox{
+    width: 100%;
+}
+.card-img
+{
+    width: 100%
+}
