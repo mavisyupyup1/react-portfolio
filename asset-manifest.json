@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ca180656.css",
+    "main.js": "/react-portfolio/static/js/main.772954d8.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Photo-Port.png": "/react-portfolio/static/media/Photo-Port.3c486baa0b5485e40787.png",
+    "static/media/Send-A-Joke.png": "/react-portfolio/static/media/Send-A-Joke.01ccdcc4098a729abcd3.png",
+    "static/media/Budget-Tracker.png": "/react-portfolio/static/media/Budget-Tracker.5d3c91775ce27d2caaaf.png",
+    "static/media/Tech-blog.png": "/react-portfolio/static/media/Tech-blog.bd09b56421414b71344b.png",
+    "static/media/COV-FIT.png": "/react-portfolio/static/media/COV-FIT.e5661b4de70c548d5f7e.png",
+    "static/media/Weather-Dashboard.png": "/react-portfolio/static/media/Weather-Dashboard.46a20e56336ab136ada2.png",
+    "static/media/image-1.PNG": "/react-portfolio/static/media/image-1.68f08d06b09ce81c6fba.PNG",
+    "static/media/Note-Taker.png": "/react-portfolio/static/media/Note-Taker.b0c5de699cf008a4b59b.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.ca180656.css.map": "/react-portfolio/static/css/main.ca180656.css.map",
+    "main.772954d8.js.map": "/react-portfolio/static/js/main.772954d8.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca180656.css",
+    "static/js/main.772954d8.js"
+  ]
+}
