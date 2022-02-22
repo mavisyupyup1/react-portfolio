@@ -6,6 +6,7 @@ import image2 from '../../assets/images/Tech-blog.png'
 import image3 from '../../assets/images/Budget-Tracker.png'
 import image4 from '../../assets/images/Note-Taker.png'
 import image5 from '../../assets/images/Weather-Dashboard.png'
+import image6 from '../../assets/images/Photo-Port.png'
 import Card from "react-bootstrap/Card"
 
 function Portfolio() {
@@ -53,7 +54,12 @@ url:"https://mavisyupyup1.github.io/weather-dashboard/",
 gitRepo:"https://github.com/mavisyupyup1/weather-dashboard",
 videoDemo:"https://drive.google.com/file/d/1GyMC5Kyhldx4rqRKzuVpGsZFqlJzZLuc/view"
 },
-
+{ title:"Photo-Port",
+description:"Photo Port is a SPA powered by REACT.js",
+feature:"HTML,CSS,JavaScript, REACT.js",
+url:"https://github.com/mavisyupyup1/photo-port",
+gitRepo:"http://mavisyupyup1.github.io/photo-port",
+}
 ]
 
   return (
@@ -197,6 +203,27 @@ videoDemo:"https://drive.google.com/file/d/1GyMC5Kyhldx4rqRKzuVpGsZFqlJzZLuc/vie
   </Card.Body>
 </Card>
 
+<Card className="col-xs-12 col-sm-12 col-lg-4 mb-4" >
+  <Card.Img variant="top" src={image6} className="card-img"/>
+  <Card.Body>
+    <Card.Title><h3>{project[6].title}</h3></Card.Title>
+    <Card.Text>
+    {project[6].description}
+    <p className="card-text">
+                        <small>
+                        {project[6].feature}
+                        </small>
+                    </p>
+    </Card.Text>
+    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+                        <a href= {project[6].url} target="_blank" className="btn mr-2" rel="noreferrer">
+                            <i className="fas fa-laptop-code"></i></a>
+                        <a href={project[6].gitRepo}  target="_blank" className="btn" rel="noreferrer">
+                            <i className="fab fa-github"></i></a>
+                            
+                    </div>
+  </Card.Body>
+</Card>
 </div>
 
 

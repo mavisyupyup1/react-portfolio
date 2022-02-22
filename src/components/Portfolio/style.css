@@ -8,14 +8,14 @@
 #portfolio h3 {
     font-size: 29px;
     font-family: 'Volkhov', serif;
-    color: #56738C;
+    color: black;
     padding-left: 17px!important;
     text-align: center;
 }
 
 
 #portfolio .card {
-    background-color: #F2EBEC;
+    background-color: white;
     border: 0;
     border-radius: 5px;
     box-shadow: 0 0 30px -5px hsl(0deg 0% 21% / 45%);

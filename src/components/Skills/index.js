@@ -12,9 +12,9 @@ export const Skills = () => {
             <div className="content">
                 <div>
                     <strong>Languages</strong>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
+                    <li><i class="fa-brands fa-js"></i>JavaScript</li>
+                    <li><i class="fa-brands fa-html5"></i>HTML</li>
+                    <li><i class="fa-brands fa-css3"></i>CSS</li>
                     {/* <li></li>
                 <li></li>
                 <li></li> */}
@@ -22,23 +22,23 @@ export const Skills = () => {
                 
                 <div>
                     <strong>Databases</strong>
-                    <li>MySQL</li>
-                    <li>NoSQL</li>
-                    <li>MongoDB</li>
+                    <li><i class="fa-solid fa-database"></i>MySQL</li>
+                    <li><i class="fa-solid fa-cubes"></i>NoSQL</li>
+                    <li><i class="fa-solid fa-pepper-hot"></i>MongoDB</li>
                     {/* <li></li>
                 <li></li> */}
                 </div>
                 <div>
                     <strong>Tools</strong>
-                    <li>Git and GitHub</li>
-                    <li>Webpack</li>
-                    <li>DevTools</li>
+                    <li><i class="fa-brands fa-github"></i>Git and GitHub</li>
+                    <li><i class="fa-solid fa-w"></i>Webpack</li>
+                    <li><i class="fa-brands fa-dev"></i>DevTools</li>
                 </div>
                 <div>
                     <strong>Environment/Frameworks/Library</strong>
-                    <li>Node.js</li>
-                    <li>Express.js</li>
-                    <li>React.js</li>
+                    <li><i class="fa-brands fa-node"></i>Node.js</li>
+                    <li><i class="fa-solid fa-server"></i>Express.js</li>
+                    <li><i class="fa-brands fa-react"></i>React.js</li>
                 </div>
             </div>
         </div>

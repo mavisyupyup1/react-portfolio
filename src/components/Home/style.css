@@ -15,28 +15,6 @@
     font-family: "Righteous", cursive;
 }
 
-.home .title p {
-    line-height: 50px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home .title button {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 24px;
-    margin-top: 30px;
-    color: #ffffff;
-    padding: 10px 15px;
-    border-radius: 999px;
-    background-color: black;
-    font-family: 'Raleway', sans-serif;
-}
-
-.home .title button:hover {
-    color: #afbdc9;
-}
-
 .home .person {
     width: 100%;
     margin-top: 20px;
@@ -47,11 +25,6 @@
     width: 75%!important;
     border-radius: 50%;
     margin: auto;
-}
-
-
-a {
-    color: black;
 }
 
 h1 {
@@ -67,17 +40,20 @@ h4 {
     color: black;
 }
 
+
+.more{
+    margin-top:5%;
+    font-size: 16px;
+    color: black;
+    line-height: normal;
+
+}
 .subtitle {
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
 }
-.arrow {
-    font-size: x-large;
-    text-align: center;
-    animation: bouncing 1s infinite ease-in-out;
-    position: absolute;
-    display: block;
-}
+
+
 @media (min-width: 800px) {
     .home {
         flex-direction: row;
