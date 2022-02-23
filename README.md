@@ -1,12 +1,15 @@
 # react-portfolio 
 
 ## Description
-Welcome to portfolio as a full stack developer, powered by REACT.js
+Welcome to my portfolio as a full stack developer, powered by REACT.js
 ## Build with
 REACT.js
-
 ## Deployed URL
 https://mavisyupyup1.github.io/react-portfolio
+
+## Demo
+![Screenshot](src/assets/images/screenshot.png) 
+![Demo](src/assets/files/portfolio_demo.gif) 
 ## Available Scripts
 
 In the project directory, you can run:

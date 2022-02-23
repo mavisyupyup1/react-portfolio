@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css'
 function Nav({ currentPage, handlePageChange }) {
   return (
-    <nav className="nav navbar">
+    <nav className="nav">
       <div className="nav-wrapper">
         
         <li>

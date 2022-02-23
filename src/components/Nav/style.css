@@ -1,5 +1,6 @@
 .navbar {
     height: 100%;
+    color:black !important;
 }
 
 .nav-wrapper {
@@ -8,14 +9,16 @@
     display: flex;
     align-items:flex-start;
     justify-content:space-evenly;
-    
+    color:black !important;
 }
 
 .list-wrapper {
     display: flex;
     align-items: center;
 }
-
+.a{
+    color: black !important;
+}
 ul {
     top: 0;
     left: 0;

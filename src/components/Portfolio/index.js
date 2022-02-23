@@ -63,7 +63,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
 ]
 
   return (
-<div className=" row justify-content-center " id="portfolio" >
+<div className=" row justify-content-center gap={3}" id="portfolio" >
         
 <Card className="col-xs-12 col-sm-12 col-lg-4 mb-4" >
   <Card.Img variant="top" src={image0} className="card-img"/>
@@ -76,8 +76,8 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                         {project[0].feature}
                         </small>
                     </p>
-    </Card.Text>
-    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+
+                    <div className="gitLinks w-100 py-3 pt-3 pl-0">
                         <a href= {project[0].url} target="_blank" className="btn mr-2" rel="noreferrer">
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[0].gitRepo}  target="_blank" className="btn" rel="noreferrer">
@@ -85,6 +85,8 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                             <a href={project[0].videoDemo}  className="btn" target="_blank" rel="noreferrer">
                             <i className="fa-solid fa-video"></i></a>
                     </div>
+    </Card.Text>
+    
   </Card.Body>
 </Card>
 
@@ -100,7 +102,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                         </small>
                     </p>
     </Card.Text>
-    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+    <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
                         <a href= {project[1].url} target="_blank" className="btn mr-2" rel="noreferrer">
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[1].gitRepo}  target="_blank" className="btn" rel="noreferrer">
@@ -123,7 +125,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                         </small>
                     </p>
     </Card.Text>
-    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+    <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
                         <a href= {project[2].url} target="_blank" className="btn mr-2" rel="noreferrer">
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[2].gitRepo}  target="_blank" className="btn" rel="noreferrer">
@@ -146,7 +148,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                         </small>
                     </p>
     </Card.Text>
-    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+    <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
                         <a href= {project[3].url} target="_blank" className="btn mr-2" rel="noreferrer">
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[3].gitRepo}  target="_blank" className="btn" rel="noreferrer">
@@ -169,7 +171,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                         </small>
                     </p>
     </Card.Text>
-    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+    <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
                         <a href= {project[4].url} target="_blank" className="btn mr-2" rel="noreferrer">
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[4].gitRepo}  target="_blank" className="btn" rel="noreferrer">
@@ -192,7 +194,7 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                         </small>
                     </p>
     </Card.Text>
-    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+    <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
                         <a href= {project[5].url} target="_blank" className="btn mr-2" rel="noreferrer">
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[5].gitRepo}  target="_blank" className="btn" rel="noreferrer">
@@ -214,14 +216,16 @@ gitRepo:"http://mavisyupyup1.github.io/photo-port",
                         {project[6].feature}
                         </small>
                     </p>
-    </Card.Text>
-    <div className="gitLinks w-100 py-3 pt-3 pl-0 position-absolute">
+
+                    <div className="gitLinks w-100 py-3 pt-3 pl-0 ">
                         <a href= {project[6].url} target="_blank" className="btn mr-2" rel="noreferrer">
                             <i className="fas fa-laptop-code"></i></a>
                         <a href={project[6].gitRepo}  target="_blank" className="btn" rel="noreferrer">
                             <i className="fab fa-github"></i></a>
                             
                     </div>
+    </Card.Text>
+    
   </Card.Body>
 </Card>
 </div>
