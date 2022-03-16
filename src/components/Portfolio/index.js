@@ -55,7 +55,7 @@ gitRepo:"https://github.com/mavisyupyup1/weather-dashboard",
 videoDemo:"https://drive.google.com/file/d/1GyMC5Kyhldx4rqRKzuVpGsZFqlJzZLuc/view"
 },
 { title:"Conscious Shopper",
-description:"Consicous Shopper is a An easy to use app that will let customers and business owners search, review, vote and share small family and minority owned businesses. This app is an SPA powered by MERN.",
+description:"Conscious Shopper is a An easy to use app that will let customers and business owners search, review, vote and share small family and minority owned businesses. This app is an SPA powered by MERN.",
 url:"https://enigmatic-basin-52191.herokuapp.com/",
 gitRepo:"https://github.com/mavisyupyup1/project-3-group-d",
 }
